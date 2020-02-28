@@ -3,11 +3,12 @@
 <head>
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/styles.css">
-  <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Gochi+Hand&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Gochi+Hand|Pacifico&display=swap" rel="stylesheet">
   <title>Kapizza</title>
 </head>
 <body>
   <div class="title">
+    <img src="https://bit.ly/2we6CEV" alt="">
     <h1>KAPIZZA</h1>
     <p>Tamu?...Kapizza!</p>
   </div>
@@ -17,28 +18,28 @@
       <div class="col-md-4">
         <h3>Size</h3>
         <select style="background: transparent;" name="size" id="size">
-          <option value="large">Large</option>
-          <option value="medium">Medium</option>
-          <option value="small">Small</option>
+          <option value="A large-sized pizza @ Ksh 1000">Large @ Ksh 1000/=</option>
+          <option value="A medium-sized pizza @ Ksh 800">Medium @ Ksh 800/=</option>
+          <option value="A small-sized pizza @ Ksh 550">Small @ Ksh 550/=</option>
         </select>
       </div>
       <div class="col-md-4">
         <h3>Crust</h3>
         <select style="background: transparent;" name="crust" id="crust">
-          <option value="crispy">Crispy</option>
-          <option value="stuffed">Stuffed</option>
-          <option value="gluten-free">Gluten-free</option>
+          <option value="Crispy crust @ Ksh 100">Crispy @ Ksh 100</option>
+          <option value="Stuffed crust @ Ksh 80">Stuffed @ Ksh 80</option>
+          <option value="Gluten-free crust @ Ksh 60">Gluten-free @ Ksh 60</option>
         </select>
       </div>
       <div class="col-md-4">
         <h3>Toppings</h3>
         <select style="background: transparent;" name="toppings" id="toppings">
-          <option value="pepperoni">Pepperoni</option>
-          <option value="mushrooms">Mushrooms</option>
-          <option value="cheese">Cheese</option>
-          <option value="spinach">Spinach</option>
-          <option value="onions">Onions</option>
-          <option value="bacon">Bacon</option>
+          <option value="With Pepperoni toppings @ Ksh 50">Pepperoni @ Ksh 50</option>
+          <option value="With Mushrooms toppings @ Ksh 50">Mushrooms @ Ksh 50</option>
+          <option value="With Cheese toppings @ Ksh 100">Cheese @ Ksh 100</option>
+          <option value="With Spinach toppings @ Ksh 50">Spinach @ Ksh 50</option>
+          <option value="With Onion toppings @ Ksh 50">Onions @ Ksh 50</option>
+          <option value="With Bacon toppings @ Ksh 50">Bacon @ Ksh 50</option>
         </select>
       </div>
     </div><br>
@@ -50,12 +51,20 @@
       <div class="col-md-6">
         <h3>Delivery</h3>
         <select style="background: transparent;" name="delivery" id="delivery">
-          <option value="yes">Yes</option>
-          <option value="no">No</option>
+          <option value="door">Delivery to your door @ Ksh 100/=</option>
+          <option value="pick">Pick up at a convenient location @ Ksh 0</option>
         </select>
       </div>
-    </div>
-    <button onclick="order()" id="order" style="background-color: blue;" type="button">Order</button>
+    </div><br><br>
+    <button onclick="what()" id="place" class="place" style="background-color: rgb(255, 136, 0);" type="button">Click to see the summary of your order</button>
+  </div>
+  <div class="summary" id="summary"><br><br>
+    <h2>Summary of your order</h2>
+    <p id="x"></p>
+    <p id="y"></p>
+    <p id="z"></p>
+
+    <button type="button" class="place">OK</button>
   </div>
   <script
   src="https://code.jquery.com/jquery-3.4.1.js"

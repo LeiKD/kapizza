@@ -45,3 +45,12 @@ select{
 .how ::placeholder{
   color: black;
 }
+.summary {
+  background-image: url("https://bit.ly/2T5JjWF");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  font-family: 'Pacifico';
+  text-align: center;
+  display: none;
+}
