@@ -1,8 +1,12 @@
+body {
+  overflow-x: hidden;
+}
 .title{
   background-image: url("https://bit.ly/2VuWxOc");
   padding: 15%;
   background-size: cover;
   background-repeat: no-repeat; 
+  background-attachment: fixed;
   text-align: center;
 }
 .title h1{
