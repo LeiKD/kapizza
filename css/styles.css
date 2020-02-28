@@ -3,15 +3,41 @@
   padding: 15%;
   background-size: cover;
   background-repeat: no-repeat; 
+  text-align: center;
 }
-h1{
+.title h1{
   color:  black;
-  font-weight: 900;
+  font-weight: 500;
   text-decoration-line: underline;
+  font-family: 'Gochi Hand';
+  font-size: 80px;
 }
-p{
+.title p{
   color:  black;
   font-weight: 900;
   font-family: 'Gochi Hand';
   font-size: 30px;
+}
+.how{
+  background-image: url("https://bit.ly/2T9tSNo");
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-family: 'Gloria Hallelujah';
+}
+
+.how h3{
+  font-weight: 600;
+}
+select{
+  border-color: black;
+
+}
+.how input{
+  border-color: black;
+
+}
+.how ::placeholder{
+  color: black;
 }

@@ -3,17 +3,59 @@
 <head>
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/styles.css">
-  <link href="https://fonts.googleapis.com/css?family=Gochi+Hand&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Gochi+Hand&display=swap" rel="stylesheet">
   <title>Kapizza</title>
 </head>
 <body>
-  <div class="container">
-    <div class="jumbotron" style="text-align: center;">
-      <div class="title">
-        <h1>KAPIZZA</h1>
-        <p>Tamu?..Kapizza!</p>
+  <div class="title">
+    <h1>KAPIZZA</h1>
+    <p>Tamu?...Kapizza!</p>
+  </div>
+  <div class="how"><br><br><br>
+    <h2>Which Pizza would you prefer?</h2><br>
+    <div class="row">
+      <div class="col-md-4">
+        <h3>Size</h3>
+        <select style="background: transparent;" name="size" id="size">
+          <option value="large">Large</option>
+          <option value="medium">Medium</option>
+          <option value="small">Small</option>
+        </select>
       </div>
-    </div> 
+      <div class="col-md-4">
+        <h3>Crust</h3>
+        <select style="background: transparent;" name="crust" id="crust">
+          <option value="crispy">Crispy</option>
+          <option value="stuffed">Stuffed</option>
+          <option value="gluten-free">Gluten-free</option>
+        </select>
+      </div>
+      <div class="col-md-4">
+        <h3>Toppings</h3>
+        <select style="background: transparent;" name="toppings" id="toppings">
+          <option value="pepperoni">Pepperoni</option>
+          <option value="mushrooms">Mushrooms</option>
+          <option value="heese">Cheese</option>
+          <option value="spinach">Spinach</option>
+          <option value="onions">Onions</option>
+          <option value="bacon">Bacon</option>
+        </select>
+      </div>
+    </div><br>
+    <div class="row">
+      <div class="col-md-6">
+        <h3>Number</h3>
+        <input style="background: transparent;" type="number" placeholder="Number of pizzas..." id="number" required>
+      </div>
+      <div class="col-md-6">
+        <h3>Delivery</h3>
+        <select style="background: transparent;" name="delivery" id="delivery">
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+        </select>
+      </div>
+    </div>
+    <button onclick="order()" id="order" style="background-color: blue;">Order</button>
   </div>
   <script
   src="https://code.jquery.com/jquery-3.4.1.js"
