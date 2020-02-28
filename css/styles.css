@@ -1,0 +1,17 @@
+.title{
+  background-image: url("https://bit.ly/2VuWxOc");
+  padding: 15%;
+  background-size: cover;
+  background-repeat: no-repeat; 
+}
+h1{
+  color:  black;
+  font-weight: 900;
+  text-decoration-line: underline;
+}
+p{
+  color:  black;
+  font-weight: 900;
+  font-family: 'Gochi Hand';
+  font-size: 30px;
+}
