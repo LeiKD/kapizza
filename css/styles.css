@@ -55,3 +55,9 @@ select{
   display: none;
   font-size: 20px;
 }
+.contact{
+  background-image: url("https://bit.ly/2vvhRJ1");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+}
