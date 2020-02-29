@@ -59,8 +59,13 @@ select{
   background-image: url("https://bit.ly/2vvhRJ1");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 400px;
+  height: 600px;
   font-family: 'Nanum Pen Script';
   font-size: 30px;
   text-align: center;
+  font-weight: 500;
+}
+.contact h2{
+  font-weight: 1000;
+  text-decoration-line: underline;
 }
