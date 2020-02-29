@@ -11,13 +11,15 @@ function what() {
     document.getElementById("x").innerHTML= n + " medium-sized pizza(s) at Ksh 800/= each"
   } else if (x===550) {
     document.getElementById("x").innerHTML= n + " regular-sized pizza(s) at Ksh 550/= each"
-  } else if (y===100) {
+  } 
+  if (y===100) {
     document.getElementById("y").innerHTML= "With crispy crust(s) at Ksh 100/= each"
   } else if (y===80) {
     document.getElementById("y").innerHTML= "With stuffed crust(s) at Ksh 80/= each"
   } else if (y===60) {
     document.getElementById("y").innerHTML= "With gluten-free crust(s) at Ksh 60/= each"
-  } else if (z===50) {
+  }
+  if (z===50) {
     document.getElementById("z").innerHTML= "With pepperoni topping(s) at Ksh 50/= each"
   } else if (z===80) {
     document.getElementById("z").innerHTML= "With mushroom topping(s) at Ksh 80/= each"
