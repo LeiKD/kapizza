@@ -4,7 +4,9 @@ function what() {
   var y=parseInt(document.getElementById("crust").value)
   var z=parseInt(document.getElementById("toppings").value)
   var n=parseInt(document.getElementById("number").value)
-  var d=document.getElementById("delivery").value
+  var d=parseInt(document.getElementById("delivery").value)
+  var t= n*(x + y + z) + d
+  document.getElementById("t").innerHTML= "Your total cost for the order is Ksh " + t + "/=."
   if (x===1000) {
     document.getElementById("x").innerHTML= n + " large-sized pizza(s) at Ksh 1000/= each"
   } else if (x===800) {
@@ -25,10 +27,9 @@ function what() {
     document.getElementById("z").innerHTML= "With mushroom topping(s) at Ksh 80/= each"
   } else if (z===100) {
     document.getElementById("z").innerHTML= "With cheese topping(s) at Ksh 100/= each"
-  }
-  if (n<1 || n>10) {
-    alert("Please input the number of pizzas you want between 1 and 10!")
-  } else if (d==="Delivery to your door for Ksh 100/=") {
+  } 
+  if (d===100) {
+    document.getElementById("d").innerHTML= "Delivery to your doorstep at Ksh 100/="
     var where= prompt("Please input your street adress here...")
     alert("Your package will be promptly delivered at " + where + " promptly. Thank you for using Kapizza services!")
   } else {

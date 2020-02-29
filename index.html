@@ -59,12 +59,12 @@
       <div class="col-md-6">
         <h3>Delivery</h3>
         <select style="background: transparent;" name="delivery" id="delivery">
-          <option value="Delivery to your door for Ksh 100/=">Delivery to your door for Ksh 100/=</option>
-          <option value="Pick it up with no delivery charge">Pick up with no charge</option>
+          <option value="100">Delivery to your door for Ksh 100/=</option>
+          <option value="0">Pick up with no charge</option>
         </select>
       </div>
     </div><br><br>
-    <button onclick="what()" id="place" class="place" style="background-color: rgb(255, 136, 0);" type="button">Click to see the summary of your order</button>
+    <button onclick="what()" id="place" class="place" style="background-color: rgb(255, 136, 0);" type="button">Checkout</button>
   </div>
   <div class="summary" id="summary"><br><br>
     <h2>Summary of your order</h2>
@@ -72,6 +72,7 @@
     <p id="y"></p>
     <p id="z"></p>
     <p id="d"></p>
+    <p id="t"></p>
 
     <button style="background: transparent;" type="button" class="place">OK</button>
   </div>
