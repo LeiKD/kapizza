@@ -31,9 +31,9 @@ function what() {
   if (d===100) {
     document.getElementById("d").innerHTML= "Delivery to your doorstep at Ksh 100/="
     var where= prompt("Please input your street adress here...")
-    alert("Your package will be promptly delivered at " + where + " promptly. Thank you for using Kapizza services!")
+    alert("We have received your order. Your package will be promptly delivered at " + where + " promptly. Thank you for using Kapizza services!")
   } else {
-    alert("Please  make sure you pick-up your package at  our premises at no delivery cost. Thank you!")
+    alert("We have received your order. Please  make sure you pick-up your package at  our premises at no delivery cost. Thank you!")
   }
 }
 $(document).ready(function() {
