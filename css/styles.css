@@ -24,13 +24,12 @@ body {
 }
 .how{
   background-image: url("https://bit.ly/2T9tSNo");
-  height: 400px;
+  height: 500px;
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
   font-family: 'Gloria Hallelujah';
 }
-
 .how h3{
   font-weight: 600;
 }
