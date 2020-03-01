@@ -10,17 +10,17 @@ body {
   text-align: center;
 }
 .title h1{
-  color:  black;
+  color:  navy;
   font-weight: 500;
   text-decoration-line: underline;
   font-family: 'Gochi Hand';
-  font-size: 80px;
+  font-size: 100px;
 }
 .title p{
   color:  black;
   font-weight: 900;
   font-family: 'Gochi Hand';
-  font-size: 30px;
+  font-size: 50px;
 }
 .how{
   background-image: url("https://bit.ly/2T9tSNo");
@@ -53,6 +53,9 @@ select{
   text-align: center;
   display: none;
   font-size: 20px;
+}
+.summary h2{
+  text-decoration-line: underline;
 }
 .contact{
   background-image: url("https://bit.ly/2vvhRJ1");
