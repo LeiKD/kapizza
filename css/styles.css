@@ -22,7 +22,24 @@ body {
   font-family: 'Gochi Hand';
   font-size: 50px;
 }
-.how{
+.pizza{
+  background-image: url("https://bit.ly/2Ic8Zea");
+}
+.about{
+  text-align: center;
+  height: 500px;
+  font-family: 'Lacquer';
+  color: white;
+}
+.about h3{
+  font-weight: 500;
+  font-size: 50px;
+  text-decoration-line: underline;
+}
+.about p{
+  font-size: 25px;
+}
+.how {
   background-image: url("https://bit.ly/2T9tSNo");
   height: 500px;
   background-size: cover;
@@ -33,7 +50,7 @@ body {
   animation-iteration-count: infinite;
 }
 @keyframes shake {
-  0% { transform: translate(1px, 1px) rotate(0deg); }
+  0% { transform: translate(1px, 2px) rotate(0deg); }
   10% { transform: translate(-1px, -2px) rotate(-1deg); }
   20% { transform: translate(-3px, 0px) rotate(1deg); }
   30% { transform: translate(3px, 2px) rotate(0deg); }
