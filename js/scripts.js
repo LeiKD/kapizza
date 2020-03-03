@@ -30,7 +30,7 @@ function what() {
   } 
   if (d===100) {
     document.getElementById("d").innerHTML= "Delivery to your doorstep at Ksh 100/="
-    var where= prompt("Please input your street adress here...")
+    var where= prompt("Please input your street address (within Nairobi) here...")
     alert("We have received your order. Your package will be promptly delivered at " + "'" + where + "'" + " promptly. Thank you for using Kapizza services!")
   } else {
     alert("We have received your order. Please  make sure you pick-up your package at  our premises at no delivery cost. Thank you!")
@@ -42,3 +42,7 @@ $(document).ready(function() {
     $(".how").slideToggle()   
   })
 })
+function feedback() {
+  var name= document.getElementById("name").value
+  alert("Hi " + name + ". Be rest assured that we have received your feedback. We will definitely put your response into consideration in the hope that it will improve our customer service. Thank you!")
+}

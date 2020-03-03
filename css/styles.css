@@ -93,7 +93,7 @@ select{
   background-image: url("https://bit.ly/2vvhRJ1");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 600px;
+  height: 1200px;
   font-family: 'Nanum Pen Script';
   font-size: 30px;
   text-align: center;
@@ -102,4 +102,18 @@ select{
 .contact h2{
   font-weight: 1000;
   text-decoration-line: underline;
+}
+.feedback input{
+  background: transparent;
+  margin-right: 100px;
+  width: 400px;
+}
+textarea{
+  background: transparent;
+  color: black;
+  width: 980px;
+  height: 300px;
+}
+.feedback ::placeholder{
+  color: white;
 }
